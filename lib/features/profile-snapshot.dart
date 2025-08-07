@@ -1,6 +1,3 @@
-import 'package:cuprofiles/constants/colors.dart';
-import 'package:cuprofiles/models/cu_profile_model.dart';
-import 'package:cuprofiles/providers/cu_profile_provider.dart';
 import 'package:cuprofiles/widgets/custom_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:cuprofiles/constants/colors.dart';
 import 'package:cuprofiles/features/app-bar.dart';
 import 'package:cuprofiles/features/financial-bar-chart.dart';
@@ -8,7 +6,6 @@ import 'package:cuprofiles/features/financial-scorecard.dart';
 import 'package:cuprofiles/features/financial-snapshot.dart';
 import 'package:cuprofiles/features/profile-snapshot.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class Item {
   bool isExpanded;

@@ -7,6 +7,7 @@ import 'package:cuprofiles/features/financial-pie-chart.dart';
 import 'package:cuprofiles/features/financial-scorecard.dart';
 import 'package:cuprofiles/features/financial-snapshot.dart';
 import 'package:cuprofiles/features/profile-snapshot.dart';
+import 'package:cuprofiles/features/search-bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -36,6 +37,7 @@ class _ProfilePageState extends State<ProfilePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SearchBarPage(),
               ProfileSnapshot(),
               FinancialSnapshot(),
               FinancialPieChart(),
